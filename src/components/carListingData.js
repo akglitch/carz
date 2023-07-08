@@ -24,32 +24,18 @@ export const cars = [
       model: 'Mustang',
       year: 2022,
       price: '$40,000',
-      image: 'https://example.com/ford_mustang.jpg',
+      img:require("../Images/aranprime-pf8n5Z6tqbs-unsplash.jpg"),
     },
+    
     {
       id: 4,
-      make: 'Chevrolet',
-      model: 'Camaro',
-      year: 2021,
-      price: '$35,000',
-      image: 'https://example.com/chevrolet_camaro.jpg',
-    },
-    {
-      id: 5,
       make: 'BMW',
       model: 'X5',
       year: 2021,
       price: '$55,000',
-      image: 'https://example.com/bmw_x5.jpg',
+      img:require("../Images/zan-1BWBiUUT-AA-unsplash.jpg"),
     },
-    {
-      id: 6,
-      make: 'Mercedes-Benz',
-      model: 'C-Class',
-      year: 2020,
-      price: '$50,000',
-      image: 'https://example.com/mercedes_c_class.jpg',
-    },
+   
     // Add more car objects as needed...
   ];
   

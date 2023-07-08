@@ -7,7 +7,7 @@ import { cars } from '../components/carListingData';
 const CarListing = () => {
   return (
     <div className="card-container">
-      <h1 className="text-center my-4">Welcome to Cool Cars!</h1>
+      <h1 className="text-center my-4">akMotorsports</h1>
       <div className="row">
         {cars.map((car) => (
           <div className="col-lg-3 col-md-6 mb-4" key={car.id}>
